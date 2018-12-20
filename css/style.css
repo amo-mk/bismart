@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.body{
+	width: 100%;
+	height: 100%;
+	min-height: 500px;
+	font-family: Arial;
+}
+.container{
+	width: 97%;
+	height: 100%;
+	min-height: 500px;
+	margin: 0 auto;
+}
+.topbar{
+	width:100%;
+	height: 4px;
+	background-color: #fcc508;
+}
+.social-icon{
+	width: 99.2%;
+	height: 35px;
+	background-color: #2a2b2c;
+	float: left;  
+	padding-left: 10px;
+}
+.icon{
+	width: 150px;
+	height: 33px;
+	padding-top: 5px;  
+	float: left;
+}
+.login-register{
+	width: 150px;
+	height: 33px;
+	float: left;
+	background-color: #2a2b2c;
+
+}
+.header-right{
+
+	width: 300px;
+	height: auto;
+	float: right;
+	padding-right: 8px;
+
+}
+.login-register a{
+	display: block;
+	float: left;
+	color: #fff;
+	text-decoration: none;
+	line-height: 33px;
+	width: 50px;
+
+}
+.cart_btn{
+	width: 100px;
+	height: 40px;
+	float: right;
+	background-color: #fcc508;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+
+}
+.cart_btn img{
+	padding-bottom: 3px;
+}
+.cart_btn span{
+	height: 50px;
+	line-height: 50px;
+	color: #cc3333;
+	font-size: 14px;
+}
+.header{
+	width: 100%;
+	height:100px;
+	float:left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #1aaa1a;
+	color: #fff;
+}
+.logo{
+	width: 200px;
+	height: auto;
+	float: left;
+	padding-left: 10px;
+}
+.state{
+	padding-top: 2px;
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 0px;
+}
+.navbar{
+	width: 800px;
+	float: left;
+	text-align: right;
+	padding-top: 74px;
+
+}
+.navbar a{
+	display: inline-block;
+	padding: 0 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.search{
+	float:right;
+	padding-top: 70px; 
+}
+.home-slide{
+	width: 100%;
+	height: 100%;
+	float: left;
+	
+}
+#heading-block{
+	width: 100%;
+	height: auto;
+	font-size: 22px;
+	float: left;
+	color: #1aaa1a;
+	padding-top: 8px;
+	margin-top: 20px;
+
+
+}
+#heading-block h2{
+    min-height: 35px;
+    border-left: 20px solid #1aaa1a;
+   padding-left: 6px;
+}
+.catbox{
+	width: 400px;
+	height: 250px;
+	position: relative;
+	float: left;
+	margin: 0 20 30 0;
+}
+.catbox span{
+	width: 375px;
+    display: block;
+    bottom: 12px;
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    z-index: 999;
+
+}
+.catbox img{
+	max-width: 100%;
+	transition: all 0.5s easy;
+}
+catbox:hover img{
+	transform: scale(1.3,1.3);
+	transition: all 0.5s easy;
+}
+#footer{
+    
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 0px;
+	float: bottom;
+}
+#footer_about{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top:200px;
+}
+
+.top-footer{
+	width: 100%;
+	height: 100%;
+	background-color: #f5f5f5;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 2px;
+}
+.topfooter1{
+	width: 31%;
+	font-style: Arial helvetica;
+	float:left;
+	margin-right: 10px;
+}
+.topfooter2{
+	width: 20%;
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+	padding-top: 35px;
+	padding-left: 2px;
+}
+.topfooter3{
+	width: auto;
+	float: left;
+	margin-left: 20px;
+	width:30%;
+	padding-left: 30px;
+
+}
+.about_text{
+	color: #fff;
+}
+.my-form{
+	padding: 20px;
+
+}
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+.my-form label{
+	display: block;
+}
+.my-form input[type="text"]{
+	padding: 04px;
+	width: 20%;
+}
+.button{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+.background{
+	background-image: url(../images/backgr.jpg);
+	background-repeat: no-repeat;
+}
+
+
+</*phones */>
+.phone-tool{
+	float: left;
+	padding-left: 
+
+}
+.phone-tool a{
+	margin: 10px;
+	padding: 10px;
+	border: 
+}
+</*acesories*/>
+.accesories a{
+	margin: 10px;
+	padding: 10px
+
+}
+</*purchase*/>
+.purchase{
+	width: 100px;
+	height: 100%;
+}
+.confirmation{
+	padding-top: 2px;
+
+}
+.lapi a{
+	margin: 10px;
+	padding: 10px;
+
+}
